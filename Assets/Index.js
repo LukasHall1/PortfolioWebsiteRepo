@@ -42,6 +42,8 @@
                     </div>
                 </div>
 
+                
+                
                 {/* main body */}
                 <div class="col-9">
                     <div class="container-fluid" >
@@ -69,6 +71,8 @@
                                         </div>
                                     </div>
                                 </section>
+
+                                <hr/>
 
                                 <section id="resume" >
                                     <div class="row">
@@ -172,12 +176,14 @@
                                             </div>
                                         </div>
                                     </div>
+
                                     <div class="row">
-                                    <h1>Resume:</h1>
-                                        <object data="Resume.pdf" width="800" height="500" >
-                                    </object>
+                                        <h1>Resume:</h1>
+                                        <object data="Misc/Resume.pdf" width="800" height="500" />
                                     </div>
+
                                 </section> 
+
                             </div>
                         </div>
                     </div>
