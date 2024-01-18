@@ -38,7 +38,9 @@
                                 <div class="col-3">
                                     <a href="https://www.linkedin.com/in/lukas-hall-26112a232/"><i class="fa-brands fa-linkedin" ></i></a>
                                 </div>
-                            </div>
+                        </div>
+
+                            
                     </div>
                 </div>
 
@@ -72,7 +74,6 @@
                                     </div>
                                 </section>
 
-                                <hr/>
 
                                 <section id="resume" >
                                     <div class="row">
@@ -98,6 +99,18 @@
                                                 <li>Produced Professional broadcasts</li><li>Wrote scripts to control macros for broadcasts</li></ul></li>
                                 
                                             </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-10 specialization-card collapsible" onMouseOver={() => showContent("collapsibleContent3")} onMouseOut={() => hideContent("collapsibleContent3")}>
+                                        <div class="row">
+                                            <div class="col-lg-9"><h2>Resume</h2></div>
+                                        </div>
+
+                                        <div class="content" id="collapsibleContent3">
+                                            <div class="row">
+                                                <object data="Misc/Resume.pdf" width="800" height="500" />
+                                            </div>
                                         </div>
                                     </div>
                                 </section>
@@ -130,7 +143,7 @@
                                             <div class="content" id="collapsibleContent">
                                                 <p>Examples of work:
                                                     <br/>
-                                                    <a href="#">This Website</a>
+                                                    <a href="#skills">This Website</a>
                                                 </p>
                                             </div>
 
@@ -171,17 +184,29 @@
                                                 <br/>&nbsp;<span>Acquainted</span>
                                             </p>
 
-                                            <div class="content" id="collapsibleContent">
+                                            <div class="content" id="collapsibleContent2">
                                                 
                                             </div>
                                         </div>
                                     </div>
+                                </section>
 
+                                <section id="skills">
                                     <div class="row">
-                                        <h1>Resume:</h1>
-                                        <object data="Misc/Resume.pdf" width="800" height="500" />
+                                        <div class="col-lg-12">
+                                        <h4 class="section-title"><i class="fa-solid fa-star"></i>Portfolio Artifact</h4>
+                                        </div>
                                     </div>
 
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <p>
+                                                This entire website is a portfolio artifact because of the fact that this is the first time
+                                                I've put my skills in react, d3, bootstrap, html, css, and javascript together to form a cohesive 
+                                                site that looks good.
+                                            </p>
+                                        </div>
+                                    </div>
                                 </section> 
 
                             </div>
