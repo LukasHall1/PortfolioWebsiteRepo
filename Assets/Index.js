@@ -153,7 +153,7 @@
                                             <div class="content" id="collapsibleContent1">
                                                 <p>Examples of work:
                                                     <br/>
-                                                    <a href="#">StarSaber</a>
+                                                    <a href="starSaber.html">StarSaber</a>
                                                 </p>
                                             </div>
                                         </div>
